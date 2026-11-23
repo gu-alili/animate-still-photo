@@ -1,0 +1,13 @@
+interface:
+  display_name: 单张照片转动态视频
+  short_description: 把单张照片用自然分层动效制作成高清短视频与循环 GIF
+  default_prompt: 用 $animate-still-photo 把这张照片做成自然的动态视频。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
